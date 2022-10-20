@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="apDple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta http-equiv="cleartype" content="on">
-    <title>用户隐私声明</title>
-    <style type="text/css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apDple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta http-equiv="cleartype" content="on">
+<title>用户隐私声明</title>
+<style type="text/css">
 body{ font-size:14px; margin:0; padding:0; font-family:arial,Helvetica,sans-serif,Microsoft YaHei; color:#333; tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color:rgba(0,0,0,0); -moz-tap-highlight-color:rgba(0,0,0,0)}
 @media screen and (min-width:480px){html,body,button,input,select,textarea{font-size:18px}}
 @media screen and (min-width:640px){html,body,button,input,select,textarea{font-size:24px}}
@@ -38,8 +37,7 @@ div.indent{text-indent: 2rem;}
   font-size: 12px;
   font-weight: 600
 }
-
-    </style>
+</style>
 </head>
 <body>
 <article class="text" id='article' style='display: none;'></article>
@@ -48,7 +46,7 @@ div.indent{text-indent: 2rem;}
 <script>
   
 function getQueryStringArgs(){
-	// //取得查询字符串并去掉开头的问号
+	//取得查询字符串并去掉开头的问号
 	// var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
 	// //保存数据的对象
 	// args = {},
@@ -69,13 +67,14 @@ function getQueryStringArgs(){
 	// 		args[name] = value;
 	// 	}
 	// }
-	// return args;
-  args = {};
+         args = {};
   args['cname'] = '上海元鲸信息技术有限公司';
   args['cappname'] = '猫猫记账';
   args['cmail'] = '13478941895@163.com';
   args['caddr'] = '上海市松江区叶榭镇新源路427号-206';
-  return args;
+
+
+	return args;
 }
 
 !function(){ 
@@ -83,8 +82,8 @@ function getQueryStringArgs(){
     var _html = document.querySelector('#article');
     console.log(params);
     _html.innerHTML = `
-      <div class="indent">更新日期：2020年3月20日</div>
-    <div class="indent">生效日期：2020年3月20日</div>
+      <div class="indent">更新日期：2022年9月27日</div>
+    <div class="indent">生效日期：2022年9月27日</div>
   <div class="indent">《${params&&params.cappname|| ''}》APP由【${params&&params.cname || ''}】（以下简称“我们”）开发提供，我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。我们致力于维持您对我们的信任，恪守以下原则，保护您的个人信息：权责一致原则、目的明确原则、选择同意原则、最少够用原则、确保安全原则、主体参与原则、公开透明原则等。同时，我们承诺，我们将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。</div>
   <div class="indent">请在使用我们的产品（或服务）前，仔细阅读并了解本《用户隐私声明》。</div>
   <strong>一、我们如何收集和使用您的个人信息</strong>
@@ -96,7 +95,6 @@ function getQueryStringArgs(){
   <p class='level-1 indent' c=' '>您提供的上述信息，将在您使用本服务期间持续授权我们使用。在您注销账号时，我们将停止使用并删除上述信息。</p>
   <p class='level-1 indent' c=' '>上述信息将存储于中华人民共和国境内。如需跨境传输，我们将会单独征得您的授权同意。</p>
   
-  <p class='level-1' c='2.'>业务功能二：商品展示、个性化推荐、发送促销营销信息。</p>
   <p class='level-1' c='（二）'>开展内部数据分析和研究，第三方SDK统计服务，改善我们的产品或服务 详见附录</p>
   <p class='level-1 indent' c=' '>我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等。</p>
   <p class='level-1 indent' c=' '>1、使用友盟统计sdk，在启动app时进行统计，我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊服务。由友盟同欣（北京）科技有限公司提供技术支持</p>
