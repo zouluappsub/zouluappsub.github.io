@@ -82,8 +82,8 @@ function getQueryStringArgs(){
     var _html = document.querySelector('#article');
     console.log(params);
     _html.innerHTML = `
-          <div class="indent">更新日期：2022年12月5日</div>
-    <div class="indent">生效日期：2022年12月5日</div>
+        <div class="indent">更新日期：2022年12月9日</div>
+    <div class="indent">生效日期：2022年12月9日</div>
   <div class="indent">《${params&&params.cappname|| ''}》APP由【${params&&params.cname || ''}】（以下简称“我们”）开发提供，我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。我们致力于维持您对我们的信任，恪守以下原则，保护您的个人信息：权责一致原则、目的明确原则、选择同意原则、最少够用原则、确保安全原则、主体参与原则、公开透明原则等。同时，我们承诺，我们将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。</div>
   <div class="indent">请在使用我们的产品（或服务）前，仔细阅读并了解本《用户隐私声明》。</div>
   <strong>一、我们如何收集和使用您的个人信息</strong>
@@ -98,13 +98,13 @@ function getQueryStringArgs(){
 
   <p class='level-1' c='（二）'>开展内部数据分析和研究，第三方SDK统计服务，改善我们的产品或服务，详见附录</p>
   <p class='level-1 indent' c=' '>我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等。</p>
-  <p class='level-1 indent' c=' '>1、使用友盟统计sdk，在启动app时进行统计，我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、当前进程列表（软件安装列表），唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊服务。由友盟同欣（北京）科技有限公司提供技术支持</p>
+  <p class='level-1 indent' c=' '>1、使用友盟统计sdk，在启动app时进行统计，我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、当前进程列表（软件安装列表），唯一设备识别码（IMEI/Android_ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊服务。由友盟同欣（北京）科技有限公司提供技术支持</p>
   <p class='level-1 indent' c=' '>2、使用QQ互联，微信分享SDK进行页面微信分享、微信或qq登录，由深圳市腾讯计算机系统有限公司提供技术支持。</p>
   <p class='level-1 indent' c=' '>3、使用头条SDK进行穿山甲平台广告的合作投放，设备品牌、型号、操作系统版本信息、设备标识符（如IMEI、AndroidID、OAID、IMSI、ICCID、GAID、MEID、IDFV、IDFA，硬件序列号）等基础信息应用信息：开发者应用名、应用包名、版本号等信息其他信息：运营商信息、设备时区、设备地理位置、网络设备硬件地址（MAC地址）、IP 地址、WLAN接入点（如SSID，BSSID）、蓝牙（Bluetooth）、基站、软件版本号、网络接入方式、类型、状态、网络质量数据、操作、使用、服务日志。以及磁盘空间，CPU数目，运营商信息，设备时区等用于广告归因、反作弊、广告投放合作，获取设备已安装应用列表用于避免投放错误广告。由北京字节跳动科技有限公司提供技术支持</p>
   <p class='level-1 indent' c=' '>4、使用Share SDK，用于文章的分享功能，包括分享到微信、朋友圈、微博。会获取您的：iOS广告标识符（IDFA）、网卡（MAC）地址、国际移动设备识别码（IMEI）、匿名设备标识符(OAID)、国际移动用户识别码（IMSI）用于渠道归因，由广州掌淘网络科技有限公司旗下品牌MobTech提供技术支持</p>
   <p class='level-1 indent' c=' '>5、使用优量汇sdk进行优量汇平台广告的合作投放，获取设备品牌，型号，软件系统版本相关信息，OAID，IMEI/MEID（Device ID）、Android_ID，设备传感器(加速度传感器，磁场传感器)，基础信息。以及磁盘空间，CPU数目，运营商信息，设备时区等用于广告归因、反作弊、广告投放合作，由深圳市腾讯计算机系统有限公司提供技术支持</p>
-  <p class='level-1 indent' c=' '>6、使用网易易盾sdk进行平台监测，获取设备品牌，型号，软件系统版本相关信息，MAC地址，oaid。以及磁盘空间，CPU数目，运营商信息，获取设备传感器信息用于反作弊，由杭州网易公司提供技术支持</p>
-  <p class='level-1 indent' c=''>7、使用腾讯X5内核浏览器TBS用于渲染APP内部H5页面，在首次同意隐私弹框协议和每次启动APP的时候初始化SDK,为了能够更好的为您提供服务，TBS会默认收集用户的国际设备识别码（IMEI）、国际移动用户识别码（IMSI）、网卡地址（MAC Address）、用户机型、屏幕尺寸、操作系统版本号、当前进程列表（软件安装列表）、目标API（targetAPI）、网络类型(ApnType)、网络变化监听广播以及 Wifi的mac地址。由深圳市腾讯计算机系统有限公司提供技术支持。</p>
+  <p class='level-1 indent' c=' '>6、使用网易易盾sdk进行平台监测，获取设备品牌，型号，软件系统版本相关信息，MAC地址，OAID，Android_ID。以及磁盘空间，CPU数目，运营商信息，获取设备传感器信息用于反作弊，由杭州网易公司提供技术支持</p>
+  <p class='level-1 indent' c=''>7、使用腾讯X5内核浏览器TBS用于渲染APP内部H5页面，在首次同意隐私弹框协议和每次启动APP的时候初始化SDK,为了能够更好的为您提供服务，TBS会默认收集用户的国际设备识别码（IMEI）、国际移动用户识别码（IMSI）、网卡地址（MAC地址）、用户机型、屏幕尺寸、操作系统版本号、当前进程列表（软件安装列表）、目标API（targetAPI）、网络类型(ApnType)、网络变化监听广播以及 Wifi的mac地址。由深圳市腾讯计算机系统有限公司提供技术支持。</p>
   <p class='level-1 indent' c=''>8、使用微信SDK进行微信登陆，获取微信步数，微信SDK获取设备基本信息，隐私协议地址为https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=privacy，由深圳市腾讯计算机系统有限公司提供技术支持</p>
 
   <p class='level-1' c='（三）'>当我们要将信息用于本策略未载明的其它用途时，会事先征求您的同意。</p>
