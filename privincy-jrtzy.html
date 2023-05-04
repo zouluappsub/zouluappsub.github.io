@@ -121,7 +121,7 @@
             args = {};
             args['cname'] = '成都锦如网络科技有限公司';
             args['appname'] = '填志愿';
-            args['c_shortname'] = '锦如网络';
+            args['c_shortname'] = '我们';
             args['mail'] = 'y17621066939@126.com';
             args['cphone'] = '17621066939';
             args['caddr'] = '中国（四川）自由贸易试验区成都高新区天府大道北段1700号1栋1单元13楼1316号';
@@ -140,8 +140,8 @@
       var params = getQueryStringArgs();
       var _html = document.querySelector('#article');
       _html.innerHTML = `<h2>隐私政策</h2>
-          <div class="indent">更新日期：2023年04月19日</div>
-        <div class="indent">生效日期：2023年04月19日</div>
+          <div class="indent">更新日期：2023年04月27日</div>
+        <div class="indent">生效日期：2023年04月27日</div>
         <div class="indent">${params && params.appname || ''}及其涉及到的产品、相关软件的所有权和运作权归${params && params.cname || ''}(以下简称${params && params.c_shortname || ''})所有，${params && params.appname || ''}尊重并保护所有${params && params.appname || ''}用户的个人信息及隐私安全，请您在使用${params && params.appname || ''}之前，仔细阅读并理解${params && params.appname || ''}隐私政策</div>
         <div class="indent">我们将尽量采用通俗易懂的文字向您解释本政策所涉及的技术词汇，以便于您的理解。请在使用/继续使用我们的各项产品及服务前，仔细阅读并完全理解本政策中的全部内容，并在需求时，按照本政策指引，自主进行适当的选择。如果您不同意本政策的内容，我们将无法为您提供完整的产品和服务，同时您也需要立即停止使用${params && params.appname || ''}产品及相关服务。如您开始使用我们的产品或服务，则视为您已经充分、完全地阅读并理解了本政策中的全部内容，并且同意我们按照本政策的约定收集、使用、存储及对外提供您的个人信息。</div>
         
@@ -200,6 +200,11 @@
         <p class='level-2'>SDK提供者名称:阿里巴巴云计算（北京）有限公司</p>
         <p class='level-2'>SDK提供者官网:https://cn.aliyun.com/</p>
         <p class='level-2'>功能描述：使用阿里云号码认证SDK以提供本机号码一键登录和认证服务，用于用户登录注册；会采集您手机的网络类型、设备信息（含IP地址、设备制造商、设备型号、手机操作系统、SIM卡信息SIM State、SIM卡信息ICCID）。</p>
+         <p class='level-2'>(6)MobTech MobLinkSDK</p>
+        <p class='level-2'>SDK名称:MobLinkSDK</p>
+        <p class='level-2'>SDK提供者名称:上海游昆信息技术有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://www.mob.com/</p>
+        <p class='level-2'>功能描述：使用MobLinkSDK场景还原功能,用于从推广页下载进去本产品的渠道统计功能，会采集用户设备基本信息。</p>
 
         <strong>三、我们如何共享、转让、公开披露您的个人信息</strong>
         <p class="inden_t">1、共享</p>
@@ -311,6 +316,13 @@
               <td>阿里云号码认证SDK</td>
               <td>本机号码一键登录</td>
               <td>运营商信息和常用设备信息</td>
+              <td>SDK获取</td>
+          </tr>
+            <tr>
+              <td>上海游昆信息技术有限公司</td>
+              <td>MobLinkSDK</td>
+              <td>场景还原</td>
+              <td>设备基本信息</td>
               <td>SDK获取</td>
           </tr>
         </table>
