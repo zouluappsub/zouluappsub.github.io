@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apDple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta http-equiv="cleartype" content="on">
+  <title>隐私权政策</title>
+  <style type="text/css">
+    body {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      font-family: arial, Helvetica, sans-serif, Microsoft YaHei;
+      color: #333;
+      tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -moz-tap-highlight-color: rgba(0, 0, 0, 0)
+    }
+
+    @media screen and (min-width:480px) {
+
+      html,
+      body,
+      button,
+      input,
+      select,
+      textarea {
+        font-size: 18px
+      }
+    }
+
+    @media screen and (min-width:640px) {
+
+      html,
+      body,
+      button,
+      input,
+      select,
+      textarea {
+        font-size: 24px
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1rem;
+      padding: .5rem 0 .5rem 0;
+    }
+
+    .text {
+      padding: 1.1rem 5%;
+      font-size: .92rem;
+    }
+
+    .text p,
+    .text div {
+      line-height: 1.5rem;
+      padding-top: .4rem;
+      font-size: .9rem;
+      text-align: justify;
+      position: relative;
+    }
+
+    strong {
+      display: block;
+      font-size: 1rem;
+      padding: 1.2rem 0 0 0rem;
+    }
+
+    .indent {
+      text-indent: 2rem;
+    }
+
+    .inden_t {
+      font-weight: 600;
+      text-indent: 2rem;
+    }
+
+    .text p.level-2 {
+      text-indent: 2rem;
+    }
+
+    .company {
+      font-size: .8rem;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: 500;
+      transform: scale(.8);
+    }
+
+    .exemption {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    .link {
+      font-weight: 600;
+      color: #333333;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="text" id='article' style='display: none;'>
+
+  </article>
+  <script>
+
+    function getQueryStringArgs() {
+            args = {};
+            args['cname'] = '上海寰昌信息科技中心';
+            args['appname'] = '填志愿';
+            args['c_shortname'] = '我们';
+            args['mail'] = 'm17502131600@163.com';
+            args['cphone'] = '17502131600';
+            args['caddr'] = '上海市崇明区堡镇堡镇南路58号23幢B区205-2室(上海堡镇经济小区)';
+      return args;
+    }
+    /*
+    ${params && params.cname || ''}
+    ${params && params.appname || ''}
+    ${params && params.c_shortname || ''}
+    ${params && params.caddr ||''}
+    ${params && params.mail ||''}
+    ${params && params.cphone ||''}
+    */
+
+    !function () {
+      var params = getQueryStringArgs();
+      var _html = document.querySelector('#article');
+      _html.innerHTML = `<h2>隐私政策</h2>
+          <div class="indent">更新日期：2023年05月09日</div>
+        <div class="indent">生效日期：2023年05月09日</div>
+        <div class="indent">${params && params.appname || ''}及其涉及到的产品、相关软件的所有权和运作权归${params && params.cname || ''}(以下简称${params && params.c_shortname || ''})所有，${params && params.appname || ''}尊重并保护所有${params && params.appname || ''}用户的个人信息及隐私安全，请您在使用${params && params.appname || ''}之前，仔细阅读并理解${params && params.appname || ''}隐私政策</div>
+        <div class="indent">我们将尽量采用通俗易懂的文字向您解释本政策所涉及的技术词汇，以便于您的理解。请在使用/继续使用我们的各项产品及服务前，仔细阅读并完全理解本政策中的全部内容，并在需求时，按照本政策指引，自主进行适当的选择。如果您不同意本政策的内容，我们将无法为您提供完整的产品和服务，同时您也需要立即停止使用${params && params.appname || ''}产品及相关服务。如您开始使用我们的产品或服务，则视为您已经充分、完全地阅读并理解了本政策中的全部内容，并且同意我们按照本政策的约定收集、使用、存储及对外提供您的个人信息。</div>
+        
+        <strong>一、我们如何收集和使用您的个人信息</strong>
+        <p class="inden_t">1、您需授权我们收集和使用您的个人信息的情形</p>
+        <p class="indent">在您使用${params && params.appname || ''}及相关服务时，您理解并同意，我们将根据下列不同场景下的相应目的收集、使用您特定种类的个人信息，用以向您提供服务、提升我们的服务质量、保障您的账户安全，以及符合国家法律法规及相关监管的要求。</p>
+        <p class='level-2'>(1)注册登录</p>
+        <p class="indent">在您注册/登录账户时，您需要提供手机号码及验证码，使用App服务时,我们还需要收集您的硬件序列号、唯一设备识别码(android_id、Mac地址、IMEI、IMSI)以验证账号及密码并完成登录;如您拒绝提供手机号码及验证码信息，则可能无法成功注册/登录户。</p>
+        <p class='level-2'>(2)进入首页</p>
+        <p class="indent">在您进入首页时，我们将收集您的高考省份、高考年份等信息，以正确提供符合您所在省份的高考信息、历年分数、历年批次线、招生计划、大学、相关高考资讯等信息，如您不提供前述信息，则无法进入首页或使用我们提供的各项服务。</p>
+        <p class='level-2'>(3)安全管理</p>
+        <p class="indent">为了尽最大努力保护您的账户及交易安全，保障您的账户不被异常使用或盗用，我们会收集您使用${params && params.appname || ''}服务的相关操作信息，包括您的硬件设备型号、您所使用的软件版本信息、您的IP地址、您所在的位置、唯一设备识别码(android_id、Mac地址、IMEI、IMSI、应用安装列表、IDFA)移动网络信息、标准网络日志数据，如您不同意我们记录或收集前述信息，可能无法完成风控验证。</p>
+        <p class="inden_t">2、通过系统权限收集和使用您的个人信息的情形</p>
+        <p class='level-2'>(1)为给您提供上传/修改头像及上传问题反馈的截图的功能，我们会申请访问您手机摄像头/相册的权限。如果您不同意我们的访问申请，您可能无法使用上述服务，但不影响您使用我们提供的其他服务。</p>
+        <p class='level-2'>(2)为给您提供您所在高考省份下相关内容，我们会申请获取您的位置权限和传感器权限，我们将基于位置信息的来判断您所在的省份的高考内容信息。如果您不同意我们的获取申请，您可能无法使用上述服务，但不影响您使用我们提供的其他服务。</p>
+        <p class='level-2'>(3)为了让您更快捷方便拨打学校招办电话及联系客服，我们会申请授权您的电话/拨号权限，给我们自动填入客服电话号码。如果您不同意我们的授权，您可能无法使用上述服务，但不影响您使用我们提供的其他服务。</p>
+        <p class='level-2'>(4)为方便您及时收到最新的高考政策与数据更新相关通知，您可以在使用App时授权我们允许通知的权限，如果您不想收到通知推送或进行授权，您可以直接选择不允许或者在手机设置中关闭通知开关。如果您关闭了消息通知开关，则可能无法收到任何资讯内容推送，但不影响您使用我们提供的其他服务。</p>
+        <p class='level-2'>(5)我们会根据您关注的信息，通过消息推送相关内容和服务，您也可以在【个人中心-设置-通知设置】内关闭推送服务。</p>
+        <p class='level-2'>(6)在后台状态下我们会获取设备标识符(包括不限于Android ID)，用于识别唯一用户，保证信息的准确统计。</p>
+        <p class='level-2'>(7)app在前台运行时会获取粘贴板内容，用于用户快捷粘贴相关信息。</p>
+        <p class='level-2'>(8)为了识别唯一用户，保证信息的准确统计，我们将获取您的设备Mac地址、唯一设备标识符（例如IMEI、AndroidID、ICCID、IMSI）。</p>
+        <p class='level-2'>(9)自启动和关联启动说明：（1）为确保本应用处于关闭或后台运行状态下可正常按收到客户端推送的广播信息，本应用须使用(自启动）能力，将存在一定频率通过系統发送广播唤醒本应用自启动或关联启动行为，是因实现功能及服务所必要的。（2）当您打开${params && params.appname || ''}APP内容类推送消息，在征得您的明确同意后，会跳转${params && params.appname || ''}APP打开相关内容。在未征得您同意的情况下，则不会有关联启动。（3）当您打开${params && params.appname || ''}APP内部下载的文件后，会关联启动第三方APP。</p>
+        <p class='level-2'>(10)为了方便用户快速登录App，需要获取用户电话权限，以便通过一键登录快速获取您的手机号信息，您也可以拒绝该权限，手动输入您的手机号码进行验证码登录。</p>
+       
+        <strong>二、 隐私政策SDK说明</strong>
+        <p class="inden_t">1、第三方插件使用情况</p>  
+        <p class='level-2'>(1)关键术语定义：设备信息：设备标识符(IMEI、IDFA、AndroidID、MAC、OAID等相关信息)应用信息(应用崩溃信息、通知开关状态、软件列表等相关信息)、设备参数及系统信息(设备类型、设备型号、操作系统及硬件相关信息)网络信息：IP地址，WiFi信息，基站信息等相关信息。</p>
+        <p class='level-2'>(2)单独的某一设备信息是无法识别特定自然人身份的信息。如果我们将这类非个人信息与其他信息结合识别特定自然人身份，或将其与个人信息结合使用，则在结合使用期间，这类非个人信息将被视为个人信息，除非取得您的授权或法律法规另有规定外，我们会将这类信息做匿名化、去标识化处理。</p>
+        <p class='level-2'>(3)为了给您提供更专业、安全的核心业务功能和附加业务功能，我们的产品中会接入第三方插件产品(包括在我们的网页或应用程序中部署统计分析工具、软件开发工具包SDK、调用地图API接口)。</p>
+        <p class="inden_t">2、通过第三方SDK手机与使用您的个人信息披露如下（见附录）：</p>   
+        <p class='level-2'>(1)高德定位SDK</p>
+        <p class='level-2'>SDK名称:高德Android定位SDK</p>
+        <p class='level-2'>SDK提供者名称:阿里巴巴集团</p>
+        <p class='level-2'>SDK提供者官网:https://lbs.amap.com</p>
+        <p class='level-2'>功能描述：我们收集您的设备信息、位置信息以及网络状态，为您提供当前所在省份的高考资讯等服务，全国高校在当前省份的招生录取信息。</p>
+        <p class='level-2'>为了提升定位服务准确性和成功率，为特定连续定位场号提供持续定位服务，并向最终用户提供问题追踪，排查，诊断服务并进行数据统计，以保障产品和服务的正常运行，我们会处理您的设备信息。</p>
+        <p class='level-2'>为帮助开发者向最终用户提供定位功能，无需最终用户手动输入自身地理坐标就可以向开发者应用反馈最终用户的位置信息，我们会收集您的位置信息。</p>
+        <p class='level-2'>为了作为辅助定位依据实现给开发者提供最终用户更精准的位置信息的目的，我们会收集您的连接WiFi信息。</p>
+        <p class='level-2'>(2)支付宝H5支付</p>
+        <p class='level-2'>SDK提供者名称:支付宝中国网络技术有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://render.alipay.com/p/c/k2cx0tg8</p>
+        <p class='level-2'>功能描述：使用您的网络权限以实现支付功能，在进行会员购买时调用，需要获取用户网络信息。</p>
+        <p class='level-2'>(3)友盟统计SDK</p>
+        <p class='level-2'>SDK名称:友盟统计SDK</p>
+        <p class='level-2'>SDK提供者名称:友盟同欣（北京）科技有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://www.umeng.com/page/policy</p>
+        <p class='level-2'>功能描述：我们收集您的设备信息、位置信息以及网络状态，为您提供当前所在省份的高考资讯等服务，全国高校在当前省份的招生录取信息。</p>
+        <p class='level-2'>收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/IP地址/SIM 卡 IMSI 设备序列号信息，写入SDCard数据，用于缓存错误日志）。</p>
+        <p class='level-2'>(4)MobTech SMSSDK</p>
+        <p class='level-2'>SDK名称:SMSSDK</p>
+        <p class='level-2'>SDK提供者名称:上海游昆信息技术有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://www.mob.com/</p>
+        <p class='level-2'>功能描述：使用SMSSDK以提供完全免费的集合中国移动、中国联通、中国电信三网顶级通道的短信验证服务，用于用户登录注册、找回密码、支付认证多种场景；会采集您的手机号码。</p>
+        <p class='level-2'>(5)阿里云号码认证SDK</p>
+        <p class='level-2'>SDK名称:阿里云号码认证SDK</p>
+        <p class='level-2'>SDK提供者名称:阿里巴巴云计算（北京）有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://cn.aliyun.com/</p>
+        <p class='level-2'>功能描述：使用阿里云号码认证SDK以提供本机号码一键登录和认证服务，用于用户登录注册；会采集您手机的网络类型、设备信息（含IP地址、设备制造商、设备型号、手机操作系统、SIM卡信息SIM State、SIM卡信息ICCID）。</p>
+         <p class='level-2'>(6)MobTech MobLinkSDK</p>
+        <p class='level-2'>SDK名称:MobLinkSDK</p>
+        <p class='level-2'>SDK提供者名称:上海游昆信息技术有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://www.mob.com/</p>
+        <p class='level-2'>功能描述：使用MobLinkSDK场景还原功能,用于从推广页下载进去本产品的渠道统计功能，会采集用户设备基本信息。</p>
+         <p class='level-2'>(7)微信支付</p>
+        <p class='level-2'>SDK名称:微信支付</p>
+        <p class='level-2'>SDK提供者名称:深圳市腾讯计算机系统有限公司</p>
+        <p class='level-2'>SDK提供者官网:https://pay.weixin.qq.com/</p>
+        <p class='level-2'>功能描述：使用微信H5支付进行会员购买，微信H5支付过程中需要跳转到微信APP进行支付，所以需要获取当前运行的应用列表信息，为实现网络链路的选择和优化，以提升用户体验，我们需要收集和使用网络信息。</p>
+
+
+        <strong>三、我们如何共享、转让、公开披露您的个人信息</strong>
+        <p class="inden_t">1、共享</p>
+        <p class='level-2'>(1)我们不会与本公司以外的任何公司、组织和个人共享您的个人信息，除非获得您的明确同意。我们仅会处于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途，对我们与之共享个人信息的公司、组织和个人，我们会与其签署严格的保密协议，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理个人信息，并且我们会要求合作伙伴提供数据安全能力和信息安全资质(如等级保护测评、信息安全管理体系等)说明。在个人敏感数据使用上，我们要求第三方采用数据脱敏加密技术，从而更好地保护用户数据。如果您对第三方使用您的个人信息有异议或发现这些第三方开发的应用程序存在风险时，我们建议您终止相关操作以保护您的合法权益，您还可以与相应的第三方协商解决，我们将尽可能提供帮助。如果我们在此过程中违反法律法规的规定，给您造成损失的，我们将承担因此引起的相应责任。目前，我们会在以下情形中，向您征求您对共享个人信息的授权同意：</p>
+        <p class='level-2'>1)我们可能会将您的个人信息与我们的关联方共享。但我们只会共享必要的个人信息，且受本隐私政策中所声明目的的约束。我们的关联方如要改变个人信息的处理目的，将再次征求您的授权同意。</p>
+        <p class='level-2'>2)我们可能会向合作伙伴及第三方共享您的订单信息、账户信息、设备信息以及位置信息，以保障为您提供的服务顺利完成。但我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享提供服务所必要的个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途。我们的合作伙伴包括以下类型：</p>
+        <p class='level-2'>a、第三方商家：我们必须将您的订单信息与交易有关的必要信息与第三方商家共享来实现您向其购买商品或服务的需求，并促使其可以完成后续的售后服务。</p>
+        <p class='level-2'>b、特定服务合作方：为了让您完成交易、实现交易目的，我们需要向您的交易相对方提供交易号与相关支付信息，同时您的交易相对方可在付款过程中或付款成功后查看您的部分注册信息;某些产品或服务可能由第三方提供或由我们与第三方共同提供，因此，只有共享您的信息，才能提供您需要的产品或服务。</p>
+        <p class='level-2'>c、纠纷处理：当您在使用App及相关服务的过程中，如与其他用户、商家等第三方发生纠纷、投诉或被投诉时，为了保护您与其他主体的合法权益，维护良好的交易秩序和社会环境，我们会基于有关部门的要求将您的姓名、有效证件号码、联系方式、纠纷内容提供给消费者权益保护部门及监管机关，以便及时处理纠纷，但法律法规明确禁止提供的除外。</p>
+        <p class='level-2'>(2)我们可能会根据法律法规规定，或按政府主管部门的强制性要求，对外共享您的个人信息。如果我们在此过程中违反法律法规的规定，给您造成损失的，我们将承担因此引起的相应责任。</p>
+        <p class="inden_t">2、转让</p>
+        <p class="indent">我们不会将您的个人信息转让给任何公司、组织和个人，但以下情况除外：</p>
+        <p class='level-2'>(1)在获得明确同意的情况下转让：获得您的明确同意后，我们会向其他方转让您的个人信息;</p>
+        <p class='level-2'>(2)根据适用的法律法规、法律程序的要求、强制性的行政或司法要求所必须的情况进行提供;</p>
+        <p class='level-2'>(3)在涉及合并、收购、资产转让或类似的交易时，如涉及到个人信息转让，我们会要求新的持有您个人信息的公司、组织继续受本隐私政策的约束，否则，我们将要求该公司、组织重新向您征求授权同意;</p>
+        <p class="inden_t">3、公开披露</p>
+        <p class="indent">公开披露是指向社会或不特定人群发布信息的行为。原则上我们不会对您的个人信息进行公开披露，除非取得您的明确同意后，且采取符合业界标准的安全防护措施的前提下，才会公开披露您的个人信息。</p>
+        <p class="inden_t">4、共享、转让、公开披露个人信息授权同意的例外情形</p>
+        <p class="indent">${params && params.c_shortname || ''}一定不会公开、编辑或透露用户的注册资料及保存在${params && params.c_shortname || ''}各项服务中的非公开内容，除非${params && params.c_shortname || ''}在诚信的基础上认为透露这些信息在以下几种情况是必要的：</p>
+        <p class='level-2'>(1)遵守有关法律规定，包括在国家有关机关查询时，提供用户在${params && params.appname || ''}的网页上发布的信息内容及其发布时间、互联网地址或者域名以及其他用户上传至${params && params.appname || ''}的信息。</p>
+        <p class='level-2'>(2)遵从${params && params.appname || ''}产品服务程序。</p>
+        <p class='level-2'>(3)保持维护${params && params.c_shortname || ''}的商标所有权。</p>
+        <p class='level-2'>(4)在紧急情况下维护用户个人和社会大众的隐私安全。</p>
+        <p class='level-2'>(5)${params && params.c_shortname || ''}认为必要的其他情况下。</p>
+        <p class="indent">用户在此授权${params && params.c_shortname || ''}可以向其电子邮箱发送商业信息。</p>
+
+        <strong>四、我们如何存储和保护您的个人信息</strong>
+        <p class="inden_t">1、存储</p>
+        <p class="indent">${params && params.c_shortname || ''}不对用户所发布信息的删除或储存失败负责。${params && params.c_shortname || ''}保留判定用户的行为是否符合${params && params.appname || ''}服务条款的要求和精神的权利，如果用户违背了服务条款的规定，则中断或删除其帐号。</p>
+        <p class="inden_t">2、保护</p>
+        <p class="indent">在您同意${params && params.appname || ''}隐私政策后，我们将进行集成SDK的初始化工作，会收集您的设备基础信息，以保障服务正常数据统计及安全风控，我们会努力采取安全技术保护您的个人信息，未经您同意，我们不会从第三方获取、共享或对外提供您的信息。</p>
+        
+        <strong>五、我们如何管理您的个人信息</strong>
+        <p class="inden_t">1、访问及修改</p>
+        <p class="indent">您有权访问及修改您的个人信息，法律法规规定的例外情况除外。您可以通过登录App账户，并通过如下渠道访问及修改您的个人信息：</p>
+        <p class='level-2'>(1)在“我的→编辑”中访问及修改账号及学生信息，包括头像、昵称、账号位置、学校、年级及成绩信息。</p>
+        <p class='level-2'>(2)在“我的→关注院校”中访问及修改关注的院校信息。</p>
+        <p class='level-2'>(3)在“我的→关注专业”中访问及修改关注的专业信息。</p>
+        <p class='level-2'>(4)在“我的→我的订单”中访问及修改订单信息。</p>
+        <p class='level-2'>(5)在“我的→我的收藏”中访问及修改收藏的资讯和视频信息。</p>
+        <p class='level-2'>(6)在“我的→我的志愿表”中访问及修改志愿表信息。</p>
+        <p class="indent">如过您无法通过上述链接访问这些个人信息，您可以通过在“我的→意见反馈”中联系我们，收到您的意见或反馈后，我们会尽快向您提供支持。</p>
+        <p class="inden_t">2、结束服务</p>
+        <p class="indent">用户或${params && params.c_shortname || ''}可随时根据实际情况中断服务。${params && params.c_shortname || ''}不需对任何个人或第三方负责而随时中断服务。用户若反对任何服务条款的建议或对后来的条款修改有异议，或对${params && params.c_shortname || ''}服务不满，用户享有以下的追索权：</p>
+        <p class='level-2'>(1)不再使用${params && params.appname || ''}的服务。</p>
+        <p class='level-2'>(2)结束用户使用${params && params.appname || ''}服务的资格。</p>
+        <p class='level-2'>(3)书面通告${params && params.c_shortname || ''}停止该用户的服务。</p>
+        <p class="indent">结束用户服务后，用户使用${params && params.appname || ''}服务的权利马上中止。从那时起，${params && params.c_shortname || ''}不再对用户承担任何义务。</p>
+        
+        <strong>六、帐号的注销及冻结</strong>
+        <p class="indent">您可以在我们的产品中直接申请注销账户，操作路径为“我的→设置中心→账号注销”。您注销账户后，我们将停止为您提供产品服务，并依据您的要求，除法律法规另有规定外，我们将在当天删除您的个人信息。</p>
+
+        <strong>七、我们如何处理未成年人个人信息的保护</strong>
+        <p class="indent">1、我们的产品、网站和服务主要面向年满16周岁的用户。如果没有父母或监护人的同意，未成年人不得创建自己的用户账户。对于经父母同意而收集未成年人(特别是未满十四周岁的儿童)个人信息的情况，我们只会在受到法律允许、父母或监护人明确同意或者保护儿童所必要的情况下使用或公开披露此信息。</p>
+        <p class="indent">2、如果我们发现自己在未事先获得可证实的父母同意的情况下收集了未成年人的个人信息，则会设法尽快删除相关数据。</p>
+        
+        <strong>八、服务条款的修改</strong>
+        <p class="indent">${params && params.c_shortname || ''}会在必要时修改服务条款，一旦本政策的内容发生变动，${params && params.c_shortname || ''}将会直接在${params && params.appname || ''}网站上公布修改之后的政策内容，该公布行为视为${params && params.c_shortname || ''}已经通知用户修改内容。${params && params.c_shortname || ''}也可通过其他适当方式向用户提示修改内容。如果不同意${params && params.c_shortname || ''}对本政策相关条款所做的修改，用户有权停止使用网络服务。如果用户继续使用网络服务，则视为用户接受${params && params.c_shortname || ''}对本政策相关条款所做的修改。</p>
+
+        <strong>九、服务修订</strong>
+        <p class="indent">${params && params.c_shortname || ''}特别提示用户，${params && params.c_shortname || ''}为了保障公司业务发展和调整的自主权，拥有随时修改或中断服务而不需通知用户的权利，${params && params.c_shortname || ''}行使修改或中断服务的权利不需对用户或任何第三方负责。用户必须在同意本条款的前提下，${params && params.c_shortname || ''}才开始对用户提供服务。</p>
+
+        <strong>十、联系我们</strong>
+        <p class='level-2'>公司名称：${params && params.cname || ''}</p>
+        <p class='level-2'>注册地址：${params && params.caddr || ''}</p>
+        <p class='level-2'>常用办公地址：${params && params.caddr || ''}</p>
+        <p class='level-2'>邮箱：${params && params.mail || ''}</p>
+        <p class='level-2'>个人信息保护负责人联系电话：${params && params.cphone || ''}</p>
+        
+        <strong>附录</strong>
+        <table id='table1' border="1">
+          <tr>
+              <th>运营方</th>
+              <th>产品</th>
+              <th>从第三方搜集个人信息的目的</th>
+              <th>从第三方搜集个人信息的类型</th>
+              <th>从第三方搜集个人信息的方式</th>
+          </tr>
+          <tr>
+              <td>阿里巴巴集团</td>
+              <td>高德定位SDK</td>
+              <td>提供所在省份的高考资讯等服务</td>
+              <td>常用设备信息</td>
+              <td>SDK获取</td>
+          </tr>
+          <tr>
+              <td>支付宝中国网络技术有限公司</td>
+              <td>支付宝支付</td>
+              <td>用于支付</td>
+              <td>常用设备信息</td>
+              <td>SDK获取</td>
+          </tr>
+           <tr>
+              <td>友盟同欣（北京）科技有限公司</td>
+              <td>友盟+SDK</td>
+              <td>统计分析服务</td>
+              <td>常用设备信息</td>
+              <td>SDK获取</td>
+          </tr>
+           <tr>
+              <td>上海游昆信息技术有限公司</td>
+              <td>SMSSDK</td>
+              <td>发送短信</td>
+              <td>运营商信息</td>
+              <td>SDK获取</td>
+          </tr>
+          <tr>
+              <td>阿里巴巴云计算（北京）有限公司</td>
+              <td>阿里云号码认证SDK</td>
+              <td>本机号码一键登录</td>
+              <td>运营商信息和常用设备信息</td>
+              <td>SDK获取</td>
+          </tr>
+            <tr>
+              <td>上海游昆信息技术有限公司</td>
+              <td>MobLinkSDK</td>
+              <td>场景还原</td>
+              <td>设备基本信息</td>
+              <td>SDK获取</td>
+          </tr>
+           <tr>
+              <td>深圳市腾讯计算机系统有限公司</td>
+              <td>微信支付 </td>
+              <td>用于支付 </td>
+              <td>不获取 </td>
+              <td>不获取 </td>
+          </tr>
+        </table>
+
+        `;
+      _html.style.display = 'block'
+    }()
+  </script>
+</body>
+
+</html>
